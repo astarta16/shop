@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Cinzel", serif;
+}
+
+.container {
+  max-width: 1240px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header styles */
+header {
+  padding: 30px 0;
+  background-color: #f5efef;
+}
+
+.inner-header {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  color: #3f3232;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* main page for home  */
+
+.specials-box {
+  margin-top: 200px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.box {
+  width: 24%;
+  padding: 15px;
+  border: 1px solid #75464ab2;
+  border-radius: 10px;
+}
+
+.box h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+span {
+  font-size: 24px;
+  float: right;
+}
+
+.item-price {
+  color: green;
+}
+
+.box button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background-color: #3f3232;
+  font-size: 15px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+}
+
+/* footer styles */
+
+footer {
+  background-color: #f5efef;
+}
+
+.footer-box {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.socials {
+  display: flex;
+  gap: 25px;
+}
+
+.logo-specials p {
+  font-size: 18px;
+  margin: 20px 0 30px 0;
+}
+
+.footer-li {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.footer-li ul li a {
+  font-size: 16px;
+  color: #75464a;
+  text-decoration: none;
+}
+
+.footer-li ul li {
+  margin-bottom: 28px;
+}
