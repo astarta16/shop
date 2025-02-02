@@ -96,6 +96,86 @@ span {
   margin-top: 10px;
 }
 
+/* Gallery page */
+.gallery h2 {
+  font-size: 18px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.gallery-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  padding: 10px;
+}
+
+.gallery-imgs img {
+  transition: 300ms;
+}
+
+.gallery-imgs img:hover {
+  transform: scale(1.1);
+}
+
+/* qa page  */
+.qa-page h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.qa-page h3 {
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.qa-page p {
+  font-size: 18px;
+  color: #1e1c1c;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #75464ab2;
+}
+
+/* abut us page */
+.about-page h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.about-page p {
+  font-size: 20px;
+  color: #75464ab2;
+}
+
+/* contact page */
+.title {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
 /* footer styles */
 
 footer {
