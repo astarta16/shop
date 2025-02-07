@@ -176,6 +176,100 @@ span {
   margin-bottom: 15px;
 }
 
+.contact-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  color: #3f3232;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.forms {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3f3232;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #3f3232;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.marking-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.marking-block input {
+  width: 20px;
+  height: 20px;
+}
+
+.send-button {
+  background-color: #3f3232;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  max-width: 220px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
 /* footer styles */
 
 footer {
